@@ -5,7 +5,9 @@
 int main(int, char**) {
   hanoi::Hanoi h(5);
   h.drucke();
+
   h.bewege(0,1);
+  h.drucke();
   h.bewege(0,1); // Illegale Bewegung
   h.bewege(0,2);
   h.drucke();
