@@ -3,7 +3,10 @@
 #include <hanoi/hanoi.hpp>
 
 namespace hanoi{
-  // Hier soll(en) die Funktion(en) für die Lösungsstrategie deklariert werden.
+  // Hier soll(en) die Funktion(en) für die Lösungsstrategie deklariert werden. 
+
+hanoi::Hanoi loesen(hanoi::Hanoi input);
+
   
   
 }
