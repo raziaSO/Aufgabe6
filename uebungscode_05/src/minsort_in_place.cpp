@@ -28,8 +28,8 @@ std::vector<int> minsort_in_place(std::vector<int>& input) {
         input[min_idx] = tmp; // Die ehemalige Stelle der kleinsten Zahl wird mit der derzeitigen Zahl ersetzt
         
         verwendet[i] = true; // Die Stelle wird noch als true markiert
-        
-
-    }
     
+    }
+
+    return input;
 }
