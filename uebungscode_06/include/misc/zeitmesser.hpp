@@ -18,10 +18,10 @@ public:
   Zeitmesser();
   void start();
   void stop();
-  int get_microseconds();
-  int get_milliseconds();
-  int get_seconds();
-  int get_minutes();
+  long get_microseconds();
+  long get_milliseconds();
+  long get_seconds();
+  long get_minutes();
 private:
   // Unter der Haube wird std::chrono verwendet.
   // Hier werden die Typen alternativ benannt.
